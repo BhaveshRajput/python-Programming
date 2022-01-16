@@ -1,0 +1,15 @@
+birds=['parrot','sparrow','owl','peacock','kingfisher']
+sports=['mallakhamb','cricket','hockey','tenis','football']
+print("birds are:",birds)
+print("sports are:",sports)
+sports.append('yoga')
+print("updated sports are:",sports)
+birds.remove('owl')
+print("updated birds are:",birds)
+
+output:-
+
+birds are: ['parrot', 'sparrow', 'owl', 'peacock', 'kingfisher']
+sports are: ['mallakhamb', 'cricket', 'hockey', 'tenis', 'football']
+updated sports are: ['mallakhamb', 'cricket', 'hockey', 'tenis', 'football', 'yoga']
+updated birds are: ['parrot', 'sparrow', 'peacock', 'kingfisher']
